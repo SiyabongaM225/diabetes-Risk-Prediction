@@ -162,6 +162,41 @@ There were no unexpected data types identified.
 
 ---
 
+# 📊 Visual Analysis
+
+## Target Distribution
+
+<img width="493" height="369" alt="image" src="https://github.com/user-attachments/assets/57e6d76a-2cef-43ce-a929-8138c2d8f2e6" />
+
+
+The dataset contains 500 observations with no diabetes (`Outcome = 0`) and
+268 observations with diabetes (`Outcome = 1`).
+
+---
+
+## 🔥 Feature Correlation
+
+<img width="807" height="643" alt="image" src="https://github.com/user-attachments/assets/8db15ff1-f843-4447-97f6-e0e022111a93" />
+
+The correlation analysis shows that `Glucose` has the strongest correlation
+with the diabetes outcome, followed by `Insulin` and `BMI`.
+
+---
+
+# 📈 Model Evaluation
+
+## Confusion Matrix
+
+<img width="474" height="364" alt="image" src="https://github.com/user-attachments/assets/76f128eb-6232-4f2e-b1a0-fc3e19b1a5ed" />
+
+The final model produced the following confusion matrix:
+
+```text
+[[73, 27],
+ [13, 41]]
+```
+
+---
 # 🧹 Data Quality Analysis
 
 Before training the model, several data quality checks were performed.
@@ -407,6 +442,8 @@ Because identifying positive cases was an important consideration in this projec
 
 ## Threshold Results
 
+<img width="271" height="173" alt="image" src="https://github.com/user-attachments/assets/edbc6d52-2817-4957-a439-ff8665691bd3" />
+
 | Threshold | Accuracy | Precision | Recall |
 |---:|---:|---:|---:|
 | 0.20 | 70.52% | 54.47% | 93.93% |
@@ -474,6 +511,8 @@ The ROC-AUC score of 0.827 indicates that the model has good ability to distingu
 
 # 📊 Confusion Matrix
 
+<img width="512" height="367" alt="image" src="https://github.com/user-attachments/assets/e5425440-db36-4e63-b0ce-9437a649369a" />
+
 The final confusion matrix was:
 
 ```text
@@ -513,6 +552,8 @@ ROC-AUC = 0.8267
 ```
 
 The ROC curve was generated using the predicted probabilities from the Logistic Regression model.
+
+<img width="573" height="375" alt="image" src="https://github.com/user-attachments/assets/5f154756-8ef0-4564-ab12-0bf3f4e06f12" />
 
 The ROC-AUC score indicates that the model performs substantially better than random classification.
 
@@ -564,6 +605,14 @@ The application then:
 5. Applies the 0.35 classification threshold.
 6. Displays the estimated diabetes risk.
 7. Displays the model's predicted risk category.
+
+Lower-value Profile
+
+<img width="1657" height="1252" alt="image" src="https://github.com/user-attachments/assets/34d63ed9-742b-495e-b1a2-951395a61e7c" />
+
+Higher-value Profile
+
+<img width="1669" height="1267" alt="image" src="https://github.com/user-attachments/assets/a75a6a13-a43a-4648-98d8-fe7e4150398e" />
 
 ---
 
@@ -923,7 +972,7 @@ Always consult a qualified healthcare professional for medical advice, diagnosis
 
 ## 👤 Author
 
-**Devworld**
+**Siyabonga M Tshabalala**
 
 Machine Learning / Data Analytics Portfolio Project
 
