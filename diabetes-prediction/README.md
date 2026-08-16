@@ -8,6 +8,10 @@ The project covers the complete machine learning workflow, from **exploratory da
 
 ---
 
+## 🚀 Live Demo
+
+🔗 [Try the Diabetes Risk Prediction App](https://diabetes-risk-predictiongit-n5mxbsja6dpvx7jngdzjaa.streamlit.app/)
+
 ## 📌 Project Overview
 
 Diabetes is a major health condition that can be associated with several measurable health and demographic factors.
